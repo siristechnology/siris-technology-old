@@ -1,35 +1,30 @@
 module.exports = {
-	defaultTitle: 'John Doe',
+	defaultTitle: 'Siris Technology',
 	logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-	author: 'John Doe',
-	url: 'https://portfolio.smakosh.com',
-	legalName: 'John Doe',
-	defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+	author: 'Siris Technology',
+	url: 'https://siristechnology.com',
+	legalName: 'Siris Technology LLC',
+	defaultDescription: 'A technology company',
 	socialLinks: {
-		twitter: 'http://www.twitter.com/smakosh',
-		github: 'https://github.com/smakosh',
-		linkedin: 'https://www.linkedin.com/in/ismail-ghallou-630149122/',
-		instagram: 'https://instagram.com/smakosh19',
-		youtube: 'https://www.youtube.com/user/smakoshthegamer',
-		google: 'https://plus.google.com/u/0/+IsmailSmakoshGhallou',
+		twitter: 'https://twitter.com/SirisTechnology',
+		github: 'https://github.com/siristechnology'
 	},
 	googleAnalyticsID: 'UA-88875900-4',
 	themeColor: '#6b63ff',
 	backgroundColor: '#6b63ff',
 	social: {
 		facebook: 'appId',
-		twitter: '@smakosh',
+		twitter: '@siristechnology',
 	},
 	address: {
-		city: 'City',
-		region: 'Region',
-		country: 'Country',
-		zipCode: 'ZipCode',
+		city: 'CENTREVILLE',
+		state: 'VA',
+		country: 'USA',
+		zipCode: '20121',
 	},
 	contact: {
-		email: 'email',
-		phone: 'phone number',
+		email: 'siristechnology2019@gmail.com'
 	},
-	foundingDate: '2018',
+	foundingDate: '2019',
 	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN'
 }

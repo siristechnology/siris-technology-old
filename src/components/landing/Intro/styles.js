@@ -39,9 +39,9 @@ export const Details = styled.div`
 
 	h4 {
 		margin-bottom: 2.5rem;
-		font-size: 32pt;
+		font-size: 16pt;
 		font-weight: normal;
-		color: #707070;
+		color: #6c757d;
 
 		@media (max-width: 680px) {
 			font-size: 26pt;
