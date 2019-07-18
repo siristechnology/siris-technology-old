@@ -26,5 +26,5 @@ module.exports = {
 		email: 'siristechnology2019@gmail.com'
 	},
 	foundingDate: '2019',
-	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN'
+	recaptcha_key: '6Lc6bK4UAAAAAEQq5-pPWsB3Ok16n3XiNCYfcAJx'
 }
