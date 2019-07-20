@@ -4,7 +4,7 @@ import { Container, Button } from 'Common'
 import dev from 'Static/illustrations/skills.svg'
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
 
-export const Skills = () => (
+export const About = () => (
 	<Wrapper id="about">
 		<SkillsWrapper as={Container}>
 			<Thumbnail>

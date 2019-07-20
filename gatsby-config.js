@@ -14,13 +14,14 @@ module.exports = {
 	plugins: [
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-styled-components',
-		/* {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'assets',
-        path: '${__dirname}/src/assets',
-      },
-    }, */
+		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
+				path: `${__dirname}/content`,
+				name: 'posts',
+			},
+		},
+		'gatsby-transformer-yaml',
 		'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
 		{
