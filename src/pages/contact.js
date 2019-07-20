@@ -1,7 +1,7 @@
 import React from 'react'
-import { Layout, SEO } from 'Common'
 import { Header } from 'Theme'
-import { Intro, Services, Projects } from 'Components/landing'
+import { Layout, SEO } from 'Common'
+import { Contact } from 'Components/contact'
 import { Wrapper } from './styles'
 
 export default () => (
@@ -9,9 +9,7 @@ export default () => (
 		<SEO />
 		<Wrapper>
 			<Header />
-			<Intro />
+			<Contact />
 		</Wrapper>
-		<Services />
-		<Projects />
 	</Layout>
 )

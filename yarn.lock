@@ -3310,6 +3310,11 @@ css-select@^2.0.0:
     domutils "^1.7.0"
     nth-check "^1.0.2"
 
+css-selector-parser@^1.1.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/css-selector-parser/-/css-selector-parser-1.3.0.tgz#5f1ad43e2d8eefbfdc304fcd39a521664943e3eb"
+  integrity sha1-XxrUPi2O77/cME/NOaUhZklD4+s=
+
 css-selector-tokenizer@^0.7.0:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/css-selector-tokenizer/-/css-selector-tokenizer-0.7.1.tgz#a177271a8bca5019172f4f891fc6eed9cbf68d5d"
@@ -5386,6 +5391,16 @@ gatsby-transformer-sharp@^2.1.8:
     semver "^5.6.0"
     sharp "^0.22.1"
 
+gatsby-transformer-yaml@2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-yaml/-/gatsby-transformer-yaml-2.2.3.tgz#cecbf29bb62bce0572e102c5b94394b343e42f86"
+  integrity sha512-FQIzmuPzvv9nnOaN+WS3VbGaoyUebeED/HdFMtvbFz/z/4oKbncD3VXRFbhvcme0uUQL4jTK47L96WiJc6XGpg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    js-yaml "^3.13.0"
+    lodash "^4.17.14"
+    unist-util-select "^1.5.0"
+
 gatsby@^2.8.6:
   version "2.8.6"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.8.6.tgz#3cd65805e2b5b120ee011761ef771bbbdacf3942"
@@ -7429,6 +7444,11 @@ lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
 
+lodash@^4.17.14:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
 log-update@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/log-update/-/log-update-3.2.0.tgz#719f24293250d65d0165f4e2ec2ed805ff062eec"
@@ -8176,7 +8196,7 @@ nprogress@^0.2.0:
   resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
   integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
 
-nth-check@^1.0.2, nth-check@~1.0.1:
+nth-check@^1.0.1, nth-check@^1.0.2, nth-check@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-1.0.2.tgz#b2bd295c37e3dd58a3bf0700376663ba4d9cf05c"
   integrity sha512-WeBOdju8SnzPN5vTUJYxYUxLeXpCaVP5i5e0LF8fg7WORF2Wd7wFX/pk0tYZk7s8T+J7VLy0Da6J1+wCT0AtHg==
@@ -11523,6 +11543,15 @@ unique-string@^1.0.0:
   integrity sha1-nhBXzKhRq7kzmPizOuGHuZyuwRo=
   dependencies:
     crypto-random-string "^1.0.0"
+
+unist-util-select@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/unist-util-select/-/unist-util-select-1.5.0.tgz#a93c2be8c0f653827803b81331adec2aa24cd933"
+  integrity sha1-qTwr6MD2U4J4A7gTMa3sKqJM2TM=
+  dependencies:
+    css-selector-parser "^1.1.0"
+    debug "^2.2.0"
+    nth-check "^1.0.1"
 
 universalify@^0.1.0:
   version "0.1.2"

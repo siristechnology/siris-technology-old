@@ -1,12 +1,14 @@
 import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { Link } from 'gatsby';
 import { Wrapper } from './styles'
 
 const NavbarLinks = ({ desktop }) => (
 	<Wrapper desktop={desktop}>
-		<AnchorLink href="#about">About</AnchorLink>
-		<AnchorLink href="#projects">Projects</AnchorLink>
-		<AnchorLink href="#contact">Contact</AnchorLink>
+		<Link to="/">Home</Link>
+		<Link to="/#projects">Projects</Link>
+		<a href='https://medium.com/siristechnology' rel='noopener noreferrer' target='_blank'>Blog</a>
+		<Link to="/about">About</Link>
+		<Link to="/contact">Contact</Link>
 	</Wrapper>
 )
 
