@@ -1,15 +1,14 @@
 import React from 'react'
 import { Header } from 'Theme'
-import { Layout, SEO } from 'Common'
+import { Layout, OverlayWrapper, SEO } from 'Common'
 import { Contact } from 'Components/contact'
-import { Wrapper } from './styles'
 
 export default () => (
 	<Layout>
 		<SEO />
-		<Wrapper>
+		<OverlayWrapper>
 			<Header />
 			<Contact />
-		</Wrapper>
+		</OverlayWrapper>
 	</Layout>
 )

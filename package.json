@@ -67,8 +67,8 @@
     "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
   },
   "engines": {
-    "node": "v10.14.1",
+    "node": "v10.16.0",
     "yarn": "1.17.3",
-    "npm": "6.4.1"
+    "npm": "6.9.0"
   }
 }
