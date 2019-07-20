@@ -70,5 +70,6 @@
     "node": "v10.16.0",
     "yarn": "1.17.3",
     "npm": "6.9.0"
-  }
+  },
+  "engineStrict": false
 }
