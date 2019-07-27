@@ -1,5 +1,5 @@
 import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { Link } from 'gatsby'
 import { Container, Button } from 'Common'
 import dev from 'Static/illustrations/dev.svg'
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles'
@@ -10,7 +10,7 @@ export const Intro = () => (
 			<Details>
 				<h1>We build world-class software for you!</h1>
 				<h4>We help imagine and create digital products people love to use.</h4>
-				<Button as={AnchorLink} href="#contact">
+				<Button as={Link} to="/contact">
 					Get in touch
 				</Button>
 			</Details>

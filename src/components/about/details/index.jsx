@@ -16,7 +16,7 @@ export const About = () => (
 					Lorem Ipsum is simply dummy text of the printing and typesetting
 					industry. Lorem Ipsum has been the industry’s standard dummy.
 				</p>
-				<Button as={AnchorLink} href="#contact">
+				<Button as={AnchorLink} href="/contact">
 					Hire me
 				</Button>
 			</Details>
