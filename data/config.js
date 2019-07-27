@@ -7,7 +7,7 @@ module.exports = {
 	defaultDescription: 'A technology company',
 	socialLinks: {
 		twitter: 'https://twitter.com/SirisTechnology',
-		github: 'https://github.com/siristechnology'
+		github: 'https://github.com/siristechnology',
 	},
 	googleAnalyticsID: 'UA-88875900-4',
 	themeColor: '#6b63ff',
@@ -23,8 +23,8 @@ module.exports = {
 		zipCode: '20121',
 	},
 	contact: {
-		email: 'siristechnology2019@gmail.com'
+		email: 'siristechnologyllc@gmail.com',
 	},
 	foundingDate: '2019',
-	recaptcha_key: '6Lc6bK4UAAAAAEQq5-pPWsB3Ok16n3XiNCYfcAJx'
+	recaptcha_key: '6Lc6bK4UAAAAAEQq5-pPWsB3Ok16n3XiNCYfcAJx',
 }
