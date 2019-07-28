@@ -1,7 +1,7 @@
 {
-	"name": "portfolio",
+	"name": "siristechnology",
 	"private": true,
-	"description": "A simple portfolio for developers",
+	"description": "A technology company",
 	"version": "0.1.1",
 	"author": "Suraj <syuraj@gmail.com>",
 	"dependencies": {
@@ -40,8 +40,8 @@
 	},
 	"keywords": [
 		"gatsby",
-		"portfolio",
-		"developer"
+		"siristechnology",
+		"Siris Technology"
 	],
 	"license": "MIT",
 	"scripts": {
