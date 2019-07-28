@@ -47,7 +47,8 @@
 	"scripts": {
 		"preinstall": "node tools/preinstall-script.js",
 		"build": "gatsby build",
-		"start:dev": "gatsby develop",
+		"start:dev": "pm2 start ecosystem.config.js --env development && gatsby develop",
+		"stop:dev": "pm2 kill",
 		"start": "pm2 start ecosystem.config.js --env production && gatsby serve",
 		"format": "prettier --write \"src/**/*.js\"",
 		"reset": "rm -rf .cache/ public/",
