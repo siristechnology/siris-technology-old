@@ -46,10 +46,10 @@
 	"license": "MIT",
 	"scripts": {
 		"preinstall": "node tools/preinstall-script.js",
-		"build": "gatsby build",
 		"start:dev": "pm2 start ecosystem.config.js --env development && gatsby develop",
 		"stop:dev": "pm2 kill",
-		"start": "pm2 start ecosystem.config.js --env production && gatsby serve",
+		"build": "gatsby build",
+		"start": "pm2-runtime start ecosystem.config.js --env production",
 		"format": "prettier --write \"src/**/*.js\"",
 		"reset": "rm -rf .cache/ public/",
 		"test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
