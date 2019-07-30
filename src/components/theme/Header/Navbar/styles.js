@@ -10,3 +10,16 @@ export const Wrapper = styled.div`
 		color: #212121;
 	}
 `
+export const Brand = styled.div`
+	display: flex;
+	align-items: center;
+	color: #212121;
+`
+
+export const BrandLogo = styled.div`
+	transition: 0.5s;
+	height: 2rem;
+	width: 2.8rem;
+	margin-bottom: 0;
+	margin-right: 0.5rem;
+`

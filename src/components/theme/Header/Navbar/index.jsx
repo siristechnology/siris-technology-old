@@ -1,12 +1,18 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Container } from 'Common'
+import Logo from 'Static/favicon/favicon-512.png'
 import NavbarLinks from '../NavbarLinks'
-import { Wrapper } from './styles'
+import { Wrapper, BrandLogo, Brand } from './styles'
 
 const Navbar = () => (
 	<Wrapper as={Container}>
-		<Link to="/">Siris Technology</Link>
+		<Brand as={Link} to="/">
+			<BrandLogo color="#212121" strokeWidth="1">
+				<img src={Logo} alt="Siris Technology" />
+			</BrandLogo>
+			Siris Technology
+		</Brand>
 		<NavbarLinks desktop />
 	</Wrapper>
 )
