@@ -1,57 +1,35 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  text-align: left;
-  width: 100%;
-  height: 100%;
+	text-align: center;
+	margin: auto 1rem;
 
-  @media (max-width: 680px) {
-    margin-bottom: 2rem;
-    text-align: center;
+	@media (max-width: 680px) {
+		align-self: center;
+		margin-bottom: 2rem;
 
-    &:last-child {
-      margin-bottom: unset;
-    }
-  }
-
-  ${({ theme }) =>
-    theme === 'dark'
-      ? `
-    p {
-      color: #BABABA;
-    }
-  `
-      : `
-    p {
-      color: #545454;
-    }
-  `}
+		&:last-child {
+			margin-bottom: unset;
+		}
+	}
 `
 
-export const Grow = styled.div`
-  height: 150px;
-  overflow: hidden;
+export const Grow = styled.img`
+	width: 200px;
+	transition: all 0.2s ease-in-out;
+	margin: 0 auto 1rem auto;
 
-  img {
-    width: 130px;
-    transition: all 0.2s ease-in-out;
-    margin: 0 auto 1rem auto;
-
-    &:hover {
-      transform: scale(1.1);
-      transition: all 0.2s ease-in-out;
-    }
-  }
-
-  @media (max-width: 680px) {
-    height: 160px;
-
-    img {
-      width: 160px;
-    }
-  }
+	&:hover {
+		transform: scale(1.1);
+		transition: all 0.2s ease-in-out;
+	}
 `
 
 export const Title = styled.h4`
-  font-weight: bold;
+	font-weight: bold;
+`
+
+export const Description = styled.div`
+	text-align: center;
+	margin: auto 1rem;
 `

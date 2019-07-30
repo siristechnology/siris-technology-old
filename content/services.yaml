@@ -1,12 +1,9 @@
-- title: Design System
-  icon: '/services/branding.svg'
-  description: Colors, fonts, typography, components... all in one place, documented and easy to access.
-- title: UI/UX Design
-  icon: '/services/uix.svg'
-  description: Good looking user interfaces with a good user experience for an affordable price.
-- title: Full Stack Development
-  icon: '/services/dev.svg'
-  description: Get your mvp up & running in less than a week built with the MERN stack, ask your early users for feedback before moving into the next steps.
-- title: SEO & growth
-  icon: '/services/seo.svg'
-  description: Your ranking on search engines will improve and growth hacking strategies will be tested and reported to keep you ahead of your competitors.
+- title: Modern Web Apps Development
+  icon: '/services/website.svg'
+  description: Get your mvp up & running in less than a week built with the React, NodeJS and MongoDB.
+- title: Mobile App Development
+  icon: '/services/app-development.svg'
+  description: Build beautiful mobile apps that represent the power and life of any business.
+- title: Tech Consulting
+  icon: '/illustrations/website-build.svg'
+  description: Help design software architecture for complex software systems
