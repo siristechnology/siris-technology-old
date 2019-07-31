@@ -11,6 +11,7 @@
 
 ## Running production build
 
+- Create `.env.production` file with all environment variables as in `.env.example` e.g. GITHUB_TOKEN, SITE_RECAPTCHA_KEY, SITE_RECAPTCHA_SECRET
 - To build all static files: `$ yarn build`
 - To run from build static files: `$ yarn start`
 
