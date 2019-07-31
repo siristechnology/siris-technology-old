@@ -2,7 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Container } from 'Components/common'
 import Service from './Service'
-import { Wrapper, Grid } from './styles'
+import { Wrapper, Flex } from './styles'
 
 export const Services = () => {
 	const {
@@ -25,11 +25,11 @@ export const Services = () => {
 		<Wrapper>
 			<Container>
 				<h2>Services</h2>
-				<Grid>
+				<Flex>
 					{edges.map(({ node }) => (
 						<Service key={node.id} {...node} />
 					))}
-				</Grid>
+				</Flex>
 			</Container>
 		</Wrapper>
 	)

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Container, Button } from 'Common'
-import dev from 'Static/illustrations/dev.svg'
+import org from 'Static/illustrations/website-build.svg'
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles'
 
 export const Intro = () => (
@@ -15,7 +15,7 @@ export const Intro = () => (
 				</Button>
 			</Details>
 			<Thumbnail>
-				<img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
+				<img src={org} alt="Siris Technology" />
 			</Thumbnail>
 		</IntroWrapper>
 	</Wrapper>
