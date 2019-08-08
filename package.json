@@ -71,10 +71,5 @@
 	},
 	"bugs": {
 		"url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
-	},
-	"engines": {
-		"node": "v10.16.0",
-		"npm": "6.9.0"
-	},
-	"engineStrict": false
+	}
 }
