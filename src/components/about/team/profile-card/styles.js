@@ -14,16 +14,22 @@ export const Wrapper = styled.div`
 		}
 	}
 
+	p {
+		text-align: justify;
+	}
+
 	${({ theme }) =>
 		theme === 'dark'
 			? `
     p {
-      color: #BABABA;
+			color: #BABABA;
+			text-align: justify;
     }
   `
 			: `
     p {
-      color: #545454;
+			color: #545454;
+			text-align: justify;
     }
   `}
 `
@@ -31,6 +37,10 @@ export const Wrapper = styled.div`
 export const Grow = styled.div`
 	height: 150px;
 	overflow: hidden;
+	border-radius: 6px !important;
+	box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	margin-bottom: 10px;
+	display: inline-block;
 
 	img {
 		width: 130px;
