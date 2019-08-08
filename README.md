@@ -26,7 +26,7 @@
 
 ## License
 
-Copyright © 2019 [Suraj](#Suraj)
+Copyright © 2019 Siris Technology\
 Licensed under the MIT license. [LICENSE.md](LICENSE.md)
 
 ---
