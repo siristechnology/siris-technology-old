@@ -1,15 +1,15 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Container } from 'Components/common'
-import Service from './Service'
-import { Wrapper, Flex } from './styles'
+import ProfileCard from './profile-card'
+import { Wrapper, Grid } from './styles'
 
-export const Services = () => {
+export const Team = () => {
 	const {
-		services: { edges },
+		team: { edges },
 	} = useStaticQuery(graphql`
 		query {
-			services: allServicesYaml {
+			team: allTeamYaml {
 				edges {
 					node {
 						id
@@ -24,12 +24,12 @@ export const Services = () => {
 	return (
 		<Wrapper>
 			<Container>
-				<h2>Services</h2>
-				<Flex>
+				<h2>Team</h2>
+				<Grid>
 					{edges.map(({ node }) => (
-						<Service key={node.id} {...node} />
+						<ProfileCard key={node.id} {...node} />
 					))}
-				</Flex>
+				</Grid>
 			</Container>
 		</Wrapper>
 	)
