@@ -4,6 +4,9 @@ export const Wrapper = styled.div`
 	text-align: left;
 	width: 100%;
 	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 	@media (max-width: 680px) {
 		margin-bottom: 2rem;
