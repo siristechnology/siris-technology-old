@@ -91,7 +91,7 @@ export const Wrapper = styled.div`
 		}
 	}
 	section {
-		padding: 80px 0;
+		padding: 20px 0 40px 0;
 	}
 	@media (max-width: 600px) {
 		section {
@@ -134,12 +134,6 @@ export const Wrapper = styled.div`
 		align-items: center;
 	}
 	.technology-title h2 {
-		color: #333333;
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 300;
-		font-size: 40px;
-		line-height: 57px;
-		letter-spacing: 0.01px;
 	}
 	.technology-list {
 		-webkit-box-flex: 1;
@@ -194,12 +188,6 @@ export const Wrapper = styled.div`
 			-ms-flex: 1;
 			flex: 1;
 			padding: unset;
-		}
-		.technology-title h2 {
-			font-size: 20px;
-			letter-spacing: 0.00454545px;
-			line-height: 24px;
-			font-weight: 200;
 		}
 		.technology-list {
 			-webkit-box-flex: 1;

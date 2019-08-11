@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Container } from 'Common'
 import phoneBg from 'Static/illustrations/iphone-feature-bg-02.svg'
 import NepalTodayScreenShot from 'Static/thumbnail/NepalToday-screenshot.png'

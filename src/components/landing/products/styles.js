@@ -88,6 +88,11 @@ export const Wrapper = styled.div`
 		height: auto;
 		max-width: 300% !important;
 	}
+	@media (max-width: 481px) {
+		.mockup-bg {
+			display: none;
+		}
+	}
 	.device-mockup {
 		position: relative;
 		width: 350px;
@@ -124,15 +129,17 @@ export const Wrapper = styled.div`
 		margin-right: auto;
 		overflow: visible;
 	}
+	@media (max-width: 481px) {
+		.feature-extended-image img {
+			max-width: 60%;
+		}
+	}
 	.feature-extended-body {
 		text-align: center;
 	}
 	@media (min-width: 641px) {
 		.features-extended .container {
 			max-width: 912px;
-		}
-		.features-extended .section-inner {
-			padding-bottom: 128px;
 		}
 		.features-extended-wrap {
 			margin-top: -64px;
