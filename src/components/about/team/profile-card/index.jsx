@@ -1,12 +1,13 @@
 import React from 'react'
-import { Wrapper, Grow, Title } from './styles'
+import { Wrapper, Grow, Title, SubTitle } from './styles'
 
-export default ({ theme, icon, title, description }) => (
+export default ({ theme, icon, name, title, description }) => (
 	<Wrapper theme={theme}>
 		<Grow>
 			<img src={icon} alt={title} />
 		</Grow>
-		<Title>{title}</Title>
+		<Title>{name}</Title>
+		<SubTitle>{title}</SubTitle>
 		<p>{description}</p>
 	</Wrapper>
 )

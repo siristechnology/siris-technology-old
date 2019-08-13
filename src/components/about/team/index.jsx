@@ -13,6 +13,7 @@ export const Team = () => {
 				edges {
 					node {
 						id
+						name
 						title
 						icon
 						description
