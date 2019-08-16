@@ -1,5 +1,5 @@
 import querystring from 'querystring'
-import sendEmail from './email-sender'
+import sendEmail from '../src/utility/email-sender'
 
 exports.handler = async event => {
 	if (event.httpMethod !== 'POST') {
