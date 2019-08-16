@@ -1,5 +1,5 @@
 import querystring from 'querystring'
-import sendEmail from './email-sender'
+import sendEmail from '../src/utility/email-sender'
 
 exports.handler = async event => {
 	if (event.httpMethod !== 'POST') {
@@ -14,8 +14,15 @@ exports.handler = async event => {
 		emailMessage.message &&
 		emailMessage['g-recaptcha-response']
 	) {
-		sendEmail(emailMessage)
-		return { statusCode: 200, body: 'Feedback Sent successful.' }
+		try {
+			await sendEmail(emailMessage)
+			return { statusCode: 200, body: 'Feedback Sent successful.' }
+		} catch (error) {
+			return {
+				statusCode: 500,
+				body: 'Feedback Send Failed.',
+			}
+		}
 	}
 	return { statusCode: 500, body: "Feedback didn't get sent." }
 }
