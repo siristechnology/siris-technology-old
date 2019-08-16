@@ -20,7 +20,7 @@ exports.handler = async event => {
 		} catch (error) {
 			return {
 				statusCode: 500,
-				body: `Feedback Send Failed. ${error.stack || error}`,
+				body: 'Feedback Send Failed.',
 			}
 		}
 	}
