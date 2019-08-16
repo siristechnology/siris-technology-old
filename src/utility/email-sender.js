@@ -23,12 +23,16 @@ export default function sendEmail(emailMessage) {
 		text: `Email: ${emailMessage.email} \nMessage: ${emailMessage.message}`,
 	}
 
-	transporter.sendMail(mailOptions, (error, info) => {
-		if (error) {
-			logger.error(winston.exceptions.getAllInfo(error))
-			console.log(error)
-		} else {
-			console.log(`Email sent: ${info.response}`)
-		}
+	return new Promise((resolve, reject) => {
+		transporter.sendMail(mailOptions, (error, info) => {
+			if (error) {
+				console.log(error)
+				logger.error(winston.exceptions.getAllInfo(error))
+				reject(error)
+			} else {
+				resolve(`Email sent: ${info.response}`)
+				console.log(`Email sent: ${info.response}`)
+			}
+		})
 	})
 }

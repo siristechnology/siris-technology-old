@@ -14,8 +14,15 @@ exports.handler = async event => {
 		emailMessage.message &&
 		emailMessage['g-recaptcha-response']
 	) {
-		sendEmail(emailMessage)
-		return { statusCode: 200, body: 'Feedback Sent successful.' }
+		try {
+			await sendEmail(emailMessage)
+			return { statusCode: 200, body: 'Feedback Sent successful.' }
+		} catch (error) {
+			return {
+				statusCode: 500,
+				body: `Feedback Send Failed. ${error.stack || error}`,
+			}
+		}
 	}
 	return { statusCode: 500, body: "Feedback didn't get sent." }
 }
