@@ -49,7 +49,7 @@
 		"start:dev": "pm2 start ecosystem.config.js --env development && gatsby develop",
 		"start:server": "netlify-lambda serve functions -p 8080",
 		"stop:dev": "pm2 kill",
-		"build": "gatsby build",
+		"build": "gatsby build && yarn build:server",
 		"build:server": "netlify-lambda build functions",
 		"start": "pm2-runtime start ecosystem.config.js --env production",
 		"format": "prettier --write \"src/**/*.js\"",
