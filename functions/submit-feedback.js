@@ -1,3 +1,4 @@
+import querystring from 'querystring'
 import sendEmail from './email-sender'
 
 exports.handler = async event => {
@@ -6,9 +7,13 @@ exports.handler = async event => {
 	}
 
 	console.log('printing event.body', event.body)
-	const emailMessage = JSON.parse(event.body)
+	const emailMessage = querystring.parse(event.body)
 
-	if (emailMessage && emailMessage.message) {
+	if (
+		emailMessage &&
+		emailMessage.message &&
+		emailMessage['g-recaptcha-response']
+	) {
 		sendEmail(emailMessage)
 		return { statusCode: 200, body: 'Feedback Sent successful.' }
 	}
