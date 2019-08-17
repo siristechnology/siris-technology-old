@@ -3,7 +3,4 @@
   description: Get your mvp up & running in less than a week built with the React, NodeJS and MongoDB.
 - title: Mobile App Development
   icon: '/services/app-development.svg'
-  description: Build beautiful mobile apps that represent the power and life of any business.
-- title: Tech Consulting
-  icon: '/illustrations/website-build.svg'
-  description: Help design software architecture for complex software systems
+  description: Build beautiful mobile apps that represent the power and life of any business using React-Native.

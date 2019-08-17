@@ -10,6 +10,7 @@ export const Footer = () => (
 				<span>
 					© {new Date().getFullYear()}, Siris Technology | All rights reserved
 				</span>
+				<div>6312 Cider Barrel Circle, Centreville, VA, 20121</div>
 			</Details>
 			<Links>
 				{social.map(({ id, name, link, icon }) => (

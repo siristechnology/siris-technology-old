@@ -18,23 +18,8 @@ export const Wrapper = styled.div`
 	}
 
 	p {
-		text-align: justify;
+		text-align: center;
 	}
-
-	${({ theme }) =>
-		theme === 'dark'
-			? `
-    p {
-			color: #BABABA;
-			text-align: justify;
-    }
-  `
-			: `
-    p {
-			color: #545454;
-			text-align: justify;
-    }
-  `}
 `
 
 export const Grow = styled.div`
