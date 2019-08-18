@@ -2,9 +2,7 @@
 
 > A company website built using react, gatsby, graphql, node
 
-<a id="status-image-popup" title="Latest push build on default branch: passed" name="status-images" class="pointer open-popup">
-  <img src="https://travis-ci.com/siristechnology/siris-technology.svg?branch=master" alt="build:passed">
-</a>
+[![Build Status](https://travis-ci.com/siristechnology/siris-technology.svg?branch=master)](https://travis-ci.com/siristechnology/siris-technology)
 
 ## Running locally for development
 
