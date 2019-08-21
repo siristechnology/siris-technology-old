@@ -2,7 +2,7 @@
 
 > A company website built using react, gatsby, graphql, node
 
-[![Build Status](https://travis-ci.com/siristechnology/siris-technology.svg?branch=master)](https://travis-ci.com/siristechnology/siris-technology)
+[![Build Status](https://travis-ci.com/siristechnology/siris-technology.svg?branch=master)](https://travis-ci.com/siristechnology/siris-technology) [![Greenkeeper badge](https://badges.greenkeeper.io/siristechnology/siris-technology.svg)](https://greenkeeper.io/)
 
 ## Running locally for development
 
