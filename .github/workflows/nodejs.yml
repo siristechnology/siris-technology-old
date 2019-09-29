@@ -20,8 +20,8 @@ jobs:
               run: |
                   yarn
                   yarn build
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             - name: YARN TEST
               run: |
                   yarn test
-              env:
-                  CI: true
