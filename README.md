@@ -2,29 +2,29 @@
 
 > A company website built using react, gatsby, graphql, node
 
-[![Build Status](https://travis-ci.com/siristechnology/siris-technology.svg?branch=master)](https://travis-ci.com/siristechnology/siris-technology) [![Greenkeeper badge](https://badges.greenkeeper.io/siristechnology/siris-technology.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/siristechnology/siris-technology.svg)](https://greenkeeper.io/)
 
 ## Running locally for development
 
-- Create `.env.development` file with all environment variables as in `.env.example` e.g. GITHUB_TOKEN, SITE_RECAPTCHA_KEY, SITE_RECAPTCHA_SECRET
-- To download dependencies: `$ yarn`
-- To run locally: `$ yarn start:dev`
-- To stop dev server: `$ yarn stop:dev`
+-   Create `.env.development` file with all environment variables as in `.env.example` e.g. GITHUB_TOKEN, SITE_RECAPTCHA_KEY, SITE_RECAPTCHA_SECRET
+-   To download dependencies: `$ yarn`
+-   To run locally: `$ yarn start:dev`
+-   To stop dev server: `$ yarn stop:dev`
 
 ## Running production build
 
-- Create `.env.production` file with all environment variables as in `.env.example` e.g. GITHUB_TOKEN, SITE_RECAPTCHA_KEY, SITE_RECAPTCHA_SECRET
-- To build all static files: `$ yarn build`
-- To run from build static files: `$ yarn start`
+-   Create `.env.production` file with all environment variables as in `.env.example` e.g. GITHUB_TOKEN, SITE_RECAPTCHA_KEY, SITE_RECAPTCHA_SECRET
+-   To build all static files: `$ yarn build`
+-   To run from build static files: `$ yarn start`
 
 ### Clean the cache
 
-- `$ yarn reset`
+-   `$ yarn reset`
 
 ## Contributors
 
-- [Ajayns](https://github.com/ajayns)
-- [Ismail](https://smakosh.com)
+-   [Ajayns](https://github.com/ajayns)
+-   [Ismail](https://smakosh.com)
 
 ## License
 
