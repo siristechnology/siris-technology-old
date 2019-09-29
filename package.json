@@ -55,7 +55,7 @@
 		"start": "pm2-runtime start ecosystem.config.js --env production",
 		"format": "prettier --write \"src/**/*.js\"",
 		"reset": "rm -rf .cache/ public/",
-		"test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+		"test": "echo \"Write tests! -> https://gatsby.app/unit-testing \""
 	},
 	"devDependencies": {
 		"@react-native-community/eslint-config": "0.0.5",
@@ -68,7 +68,9 @@
 		"eslint-config-standard": "14.1.0",
 		"eslint-plugin-import": "^2.14.0",
 		"eslint-plugin-jsx-a11y": "^6.1.2",
+		"eslint-plugin-node": "10.0.0",
 		"eslint-plugin-prettier": "3.1.1",
+		"eslint-plugin-promise": "4.2.1",
 		"eslint-plugin-react": "^7.11.1",
 		"eslint-plugin-react-hooks": "^2.0.0",
 		"eslint-plugin-standard": "4.0.1",

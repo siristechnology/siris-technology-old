@@ -1,14 +1,18 @@
 module.exports = {
 	testEnvironment: 'node',
 	verbose: true,
-	moduleFileExtensions: ['js', 'jsx'],
-	testPathIgnorePatterns: ['<rootDir>/node_modules/'],
-	coveragePathIgnorePatterns: ['<rootDir>/node_modules/'],
-	collectCoverageFrom: ['<rootDir>/src/**/*.{js,jsx}'],
-	coverageReporters: ['clover', 'json-summary'],
-	testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test|integration).[jt]s?(x)'],
 	transform: {
-		'^.+\\.(js|jsx|mjs)$': '<rootDir>/node_modules/babel-jest',
+		'^.+\\.jsx?$': `<rootDir>/jest-preprocess.js`,
 	},
-	setupFiles: ['<rootDir>/node_modules/regenerator-runtime/runtime'],
+	moduleNameMapper: {
+		'.+\\.(css|styl|less|sass|scss)$': `identity-obj-proxy`,
+		'.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': `<rootDir>/__mocks__/file-mock.js`,
+	},
+	testPathIgnorePatterns: [`node_modules`, `.cache`, `public`],
+	transformIgnorePatterns: [`node_modules/(?!(gatsby)/)`],
+	globals: {
+		__PATH_PREFIX__: ``,
+	},
+	testURL: `http://localhost`,
+	setupFiles: [`<rootDir>/loadershim.js`],
 }
