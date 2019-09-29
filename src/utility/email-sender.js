@@ -1,8 +1,4 @@
 const mailgun = require('mailgun-js')
-const winston = require('winston')
-const logger = require('../../config/logger')
-
-process.env.NODE_ENV = 'development'
 
 require('dotenv').config({
 	path: `.env.${process.env.NODE_ENV}`,
