@@ -9,11 +9,7 @@ exports.handler = async event => {
 	console.log('printing event.body', event.body)
 	const emailMessage = querystring.parse(event.body)
 
-	if (
-		emailMessage &&
-		emailMessage.message &&
-		emailMessage['g-recaptcha-response']
-	) {
+	if (emailMessage && emailMessage.message && emailMessage['g-recaptcha-response']) {
 		try {
 			await sendEmail(emailMessage)
 			return { statusCode: 200, body: 'Feedback Sent successful.' }
