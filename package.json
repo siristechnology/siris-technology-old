@@ -55,7 +55,7 @@
 		"start": "pm2-runtime start ecosystem.config.js --env production",
 		"format": "prettier --write \"src/**/*.js\"",
 		"reset": "rm -rf .cache/ public/",
-		"test": "echo \"Write tests! -> https://gatsby.app/unit-testing \""
+		"test": "jest --testMatch '**/?(*.)+(spec|test).[tj]s?(x)' "
 	},
 	"devDependencies": {
 		"@react-native-community/eslint-config": "0.0.5",

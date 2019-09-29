@@ -9,7 +9,7 @@ module.exports = {
 		twitter: 'https://twitter.com/SirisTechnology',
 		github: 'https://github.com/siristechnology',
 	},
-	googleAnalyticsID: 'UA-88875900-4',
+	// googleAnalyticsID: 'UA-88875900-4',
 	themeColor: '#6b63ff',
 	backgroundColor: '#6b63ff',
 	social: {

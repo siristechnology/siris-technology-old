@@ -82,7 +82,7 @@ module.exports = {
 		},
 		'gatsby-plugin-offline',
 		{
-			resolve: `gatsby-plugin-alias-imports`,
+			resolve: 'gatsby-plugin-alias-imports',
 			options: {
 				alias: {
 					Components: path.resolve(__dirname, 'src/components'),
