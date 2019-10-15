@@ -12119,10 +12119,10 @@ pm2-multimeter@^0.1.2:
   dependencies:
     charm "~0.1.1"
 
-pm2@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/pm2/-/pm2-4.0.1.tgz#7e9cbd3cce75083180707d53bd4712adb6f8ad40"
-  integrity sha512-MmRc1vz8wH/TZFuPRHUzY/EJFtCrnzN4UzBA4OOQrYGVoNxmtOIJC+sKxYuFqy7OWAVpmZlLQmCOnt2L3FE/gg==
+pm2@4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/pm2/-/pm2-4.0.2.tgz#d1bfbd3f6be0d9981da847f035da7ee5830d069c"
+  integrity sha512-fn4fJ0dZODqGSAbMbjD8+zBUqwMCJcmz77yjp+02f7fe3fwovSNOJySZjT+G2MSlwIfeUKufjjxlxZ6fdglkng==
   dependencies:
     "@pm2/agent" "^0.5.26"
     "@pm2/io" "^4.3.2"
