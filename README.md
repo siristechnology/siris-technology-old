@@ -2,7 +2,8 @@
 
 > A company website built using react, gatsby, graphql, node
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/siristechnology/siris-technology.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/siristechnology/siris-technology.svg)](https://greenkeeper.io/) 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1eea9b75-7651-4973-903d-cb5939235d41/deploy-status)](https://app.netlify.com/sites/siristechnology/deploys)
 
 ## Running locally for development
 
