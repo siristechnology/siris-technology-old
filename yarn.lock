@@ -6187,10 +6187,10 @@ eslint-plugin-react-hooks@^1.5.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.7.0.tgz#6210b6d5a37205f0b92858f895a4e827020a7d04"
   integrity sha512-iXTCFcOmlWvw4+TOE8CLWj6yX1GwzT0Y6cUfHHZqWnSk144VmVIRcVGtUAzrLES7C798lmvnt02C7rxaOX1HNA==
 
-eslint-plugin-react-hooks@^2.0.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-2.1.1.tgz#b416390b642113f444ee175b667c3222a045a98e"
-  integrity sha512-AYitPYzwHyKpZKpzMH5sCkld68vP8wn29Lq716h4jk1ll9Gp4BBFoPq/iCjBBT35eXFJvOPjgMlvhIXFB0OhXg==
+eslint-plugin-react-hooks@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-2.2.0.tgz#078264e9e388da6929ace09d6abe92c85963aff4"
+  integrity sha512-jSlnBjV2cmyIeL555H/FbvuSbQ1AtpHjLMHuPrQnt1eVA6lX8yufdygh7AArI2m8ct7ChHGx2uOaCuxq2MUn6g==
 
 eslint-plugin-react-native-globals@^0.1.1:
   version "0.1.2"
@@ -12119,10 +12119,10 @@ pm2-multimeter@^0.1.2:
   dependencies:
     charm "~0.1.1"
 
-pm2@4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/pm2/-/pm2-4.0.2.tgz#d1bfbd3f6be0d9981da847f035da7ee5830d069c"
-  integrity sha512-fn4fJ0dZODqGSAbMbjD8+zBUqwMCJcmz77yjp+02f7fe3fwovSNOJySZjT+G2MSlwIfeUKufjjxlxZ6fdglkng==
+pm2@4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/pm2/-/pm2-4.1.2.tgz#97f852c731d307a60dde1ef2fc5a622813ab6cf4"
+  integrity sha512-HkNP3K79PmqxkxfgNX/t5rsfWLNMc89KVKDm2Xoju0MU3TbGZSc2rWLZffgEitITsMcPpkKtZmAJBcxMXvURFA==
   dependencies:
     "@pm2/agent" "^0.5.26"
     "@pm2/io" "^4.3.2"
@@ -12153,9 +12153,10 @@ pm2@4.0.2:
     shelljs "0.8.3"
     source-map-support "0.5.12"
     sprintf-js "1.1.2"
-    systeminformation "^4.14.11"
     vizion "~2.0.2"
     yamljs "0.3.0"
+  optionalDependencies:
+    systeminformation "^4.14.11"
 
 pn@^1.1.0:
   version "1.1.0"
