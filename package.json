@@ -28,7 +28,7 @@
 		"mailgun-js": "0.22.0",
 		"pm2": "4.1.2",
 		"prop-types": "^15.6.2",
-		"react": "^16.10.2",
+		"react": "^16.11.0",
 		"react-anchor-link-smooth-scroll": "^1.0.11",
 		"react-dom": "^16.10.2",
 		"react-google-recaptcha": "^2.0.1",
