@@ -2807,7 +2807,7 @@ ansi-align@^3.0.0:
   dependencies:
     string-width "^3.0.0"
 
-ansi-colors@^3.0.0:
+ansi-colors@^3.0.0, ansi-colors@^3.2.1:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
   integrity sha512-hHUXGagefjN2iRrID63xckIvotOXOojhQKWIPUZ4mNUZ9nLZW+7FMNoE1lOkEhNWYsx/7ysGIuJYCiMAA9FnrA==
@@ -5874,6 +5874,13 @@ enhanced-resolve@^4.1.0:
     graceful-fs "^4.1.2"
     memory-fs "^0.4.0"
     tapable "^1.0.0"
+
+enquirer@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/enquirer/-/enquirer-2.3.2.tgz#1c30284907cadff5ed2404bd8396036dd3da070e"
+  integrity sha512-PLhTMPUXlnaIv9D3Cq3/Zr1xb7soeDDgunobyCmYLUG19n24dvC8i+ZZgm2DekGpDnx7JvFSHV7lxfM58PMtbA==
+  dependencies:
+    ansi-colors "^3.2.1"
 
 entities@^1.1.1, entities@~1.1.1:
   version "1.1.2"
@@ -12118,10 +12125,10 @@ pm2-multimeter@^0.1.2:
   dependencies:
     charm "~0.1.1"
 
-pm2@4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/pm2/-/pm2-4.1.2.tgz#97f852c731d307a60dde1ef2fc5a622813ab6cf4"
-  integrity sha512-HkNP3K79PmqxkxfgNX/t5rsfWLNMc89KVKDm2Xoju0MU3TbGZSc2rWLZffgEitITsMcPpkKtZmAJBcxMXvURFA==
+pm2@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/pm2/-/pm2-4.2.0.tgz#2ddf1cfbfb678434ef2bf956370c6a354a6184e2"
+  integrity sha512-toj4yv5zd1Nf5K7GFoL/bPEZvEJFgXSoHsmgp4axjCf+TEhsrBRjgMPsSSLtVcDeDNApOtZmJAY5TuH5sA1eOA==
   dependencies:
     "@pm2/agent" "^0.5.26"
     "@pm2/io" "^4.3.2"
@@ -12135,6 +12142,7 @@ pm2@4.1.2:
     cron "1.7.1"
     date-fns "1.30.1"
     debug "4.1.1"
+    enquirer "^2.3.2"
     eventemitter2 "5.0.1"
     fclone "1.0.11"
     lodash "4.17.14"
@@ -12155,7 +12163,7 @@ pm2@4.1.2:
     vizion "~2.0.2"
     yamljs "0.3.0"
   optionalDependencies:
-    systeminformation "^4.14.11"
+    systeminformation "^4.14.16"
 
 pn@^1.1.0:
   version "1.1.0"
@@ -14829,10 +14837,10 @@ synchronous-promise@^2.0.6:
   resolved "https://registry.yarnpkg.com/synchronous-promise/-/synchronous-promise-2.0.10.tgz#e64c6fd3afd25f423963353043f4a68ebd397fd8"
   integrity sha512-6PC+JRGmNjiG3kJ56ZMNWDPL8hjyghF5cMXIFOKg+NiwwEZZIvxTWd0pinWKyD227odg9ygF8xVhhz7gb8Uq7A==
 
-systeminformation@^4.14.11:
-  version "4.14.11"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-4.14.11.tgz#5c7f23d92586f2639a9d037a359890f7ab01c4ea"
-  integrity sha512-KlMaQQftyGUPjKzGRrATN5mpKrpdtrVk/KPuqPeu733bUgpokIhevg5zjKOb4Gur91XKdbdQCCja/oFsg5R4Dw==
+systeminformation@^4.14.16:
+  version "4.15.3"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-4.15.3.tgz#639cdc224b5c3811f1a0bfba33f869bbc6fb930f"
+  integrity sha512-Fx2ARGHtLl2/xLeNoTR8/doXSxUXuAzIN+dyCK9O43j/UETLBt77yTEbTxmYsVD47PYjX1iQTdcY41CZckY+zg==
 
 table@^5.2.3:
   version "5.4.0"
