@@ -57,7 +57,7 @@
 		"test": "jest --testMatch '**/?(*.)+(spec|test).[tj]s?(x)' "
 	},
 	"devDependencies": {
-		"@react-native-community/eslint-config": "0.0.5",
+		"@react-native-community/eslint-config": "0.0.6",
 		"babel-eslint": "^10.0.1",
 		"babel-jest": "24.9.0",
 		"babel-preset-gatsby": "0.2.17",
